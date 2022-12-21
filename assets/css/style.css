@@ -3,59 +3,50 @@
     --main-border-color: black;
 }
 
-header nav {
-    display: block;
-    background-color: green;
-    color: white;
-    border:100%;
+body {
+    font-family: Arial;
+    background-color: antiquewhite;
+    background-image: url("../../images/charictature.jpg");
 }
 
-.hero{
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("/Users/bryan/Documents/bootcamp/projects/dodge-this-challenger-ii/images/charictature.jpg");
-    background-size: cover;
-    background-position: center;
-}
-h1 { border: 20px;
+
+h1 {
+    border: 20px;
     font-size: 10px;
 }
 
-header ul{display: block;
-    font-size: 17px;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
 }
 
-body {
-    background-color: antiquewhite;
-    font-family: Arial;
-    display: flex;
+li {
+    float: left;
 }
 
-h2 {
-    align-items: right;
+li a {
     display: block;
-
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
-h3 {
-    font-size: 20px;
-    Padding: 20px;
-}
-
-#lefty {
-    display: block;
-}
-
-p {
-    justify-content: center;
-    align-items: right;
+li a:hover {
+    background-color: green;
 }
 
 img {
     height: 400px;
-    display: inline-block;
+    display: flexbox;
     justify-content: center;
+}
+
+.container {
+    display: flex;
 }
 
 .sub-container {
@@ -75,7 +66,7 @@ img {
     background-color: yellow;
 }
 
-.sub-container::first-letter {
+.sub-container div p::first-letter {
     color: teal;
     font-family: cursive;
 }
@@ -84,4 +75,13 @@ h1[data-secret]:hover::after {
     content: attr(data-secret);
     margin-top: 10px;
     color: yellow;
+}
+
+@media screen and (max-width: 600px) {
+
+    .leftCol,
+    .rightCol,
+    .col3 {
+        width: 100%;
+    }
 }
