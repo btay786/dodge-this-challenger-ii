@@ -70,9 +70,9 @@ li a:hover {
     background-color: yellow;
 }
 
-.sub-container div p::first-letter {
+.sub-container::first-letter {
     color: teal;
-    font-family: cursive;
+    font-family:cursive;
 }
 
 h1[data-secret]:hover::after {
