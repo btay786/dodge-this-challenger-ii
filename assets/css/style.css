@@ -10,7 +10,7 @@ body {
 }
 
 
-h1 {
+h1 { border-color:purple;
     border: 20px;
     font-size: 10px;
 }
@@ -39,26 +39,30 @@ li a:hover {
     background-color: green;
 }
 
-img {
-    height: 400px;
-    display: flexbox;
-    justify-content: center;
+
+.container {display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-color: yellow;
 }
 
-.container {
-    display: flex;
+.conatiner img {display:flex;
+    flex-basis: 50%;
 }
 
-.sub-container {
-    display: block;
+.sub-container {flex-grow:0;
     margin: 5px;
     padding: 15px;
     background-color: var(--main-bg-color);
     color: blue;
-    width: 25%;
+    width: calc(50% - 5px);
     border: var(--main-border-color)5px solid;
-    text-align: center;
+   
 }
+
+.first-box img{object-fit: scale-down;
+    width: 200px;
+   height: 300px; }
 
 .sub-container:hover {
     border-color: aquamarine;

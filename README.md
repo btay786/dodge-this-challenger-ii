@@ -17,3 +17,22 @@ potential css Code: for putting a nice background image. oh fine lets do it:
     background-size: cover;
     background-position: center;
 }
+
+hold this code, i may be back
+<section class="sub-container">
+            <div class="divide-this">
+                <h2>About Me:</h2>
+            </div>
+            <div class="A-division-1">
+                <p>I am me and I will put more here, eventually.</p>
+            </div>
+            <div class="A-division-2"></div>
+            <div class="divided-it-is">
+                <h2>Portfolio</h2>
+            </div>
+           
+            </div>
+            <div class="A-division-3">
+                <a href="url" btay786@gmail.com>btay786@gmail.com</a>
+            </div>
+        </section>
