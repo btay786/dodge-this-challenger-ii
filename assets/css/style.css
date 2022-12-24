@@ -39,15 +39,18 @@ li a:hover {
     background-color: green;
 }
 
+main {display:flex;
+border-style: dotted;
+}
+img {display:flex;
+    flex-basis: 50%; object-fit: scale-down;
+    width: 200px;
+   height: 300px; ;
+}
 
 .container {display:flex;
     flex-wrap: wrap;
-    justify-content: space-between;
     border-color: yellow;
-}
-
-.conatiner img {display:flex;
-    flex-basis: 50%;
 }
 
 .sub-container {flex-grow:0;
@@ -59,10 +62,6 @@ li a:hover {
     border: var(--main-border-color)5px solid;
    
 }
-
-.first-box img{object-fit: scale-down;
-    width: 200px;
-   height: 300px; }
 
 .sub-container:hover {
     border-color: aquamarine;
