@@ -10,7 +10,8 @@ body {
 }
 
 
-h1 { border-color:purple;
+h1 {
+    border-color: purple;
     border: 20px;
     font-size: 10px;
 }
@@ -39,28 +40,43 @@ li a:hover {
     background-color: green;
 }
 
-main {display:flex;
-border-style: dotted;
-}
-img {display:flex;
-    flex-basis: 50%; object-fit: scale-down;
-    width: 200px;
-   height: 300px; ;
+main {
+    /* display: flex; */
+    border-style: dotted;
 }
 
-.container {display:flex;
+img {
+    display: flex;
+    flex-basis: 50%;
+    object-fit: scale-down;
+    width: 200px;
+    height: 300px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     flex-wrap: wrap;
     border-color: yellow;
+    
 }
 
-.sub-container {flex-grow:0;
-    margin: 5px;
+.sub-element {
+    display: flex;
+    gap: 20px;
+    width: calc(50% + 35px);
+    margin: 5px auto;
+}
+
+.sub-container {
+    flex-grow: 0;
     padding: 15px;
     background-color: var(--main-bg-color);
     color: blue;
     width: calc(50% - 5px);
     border: var(--main-border-color)5px solid;
-   
+    margin: 5px auto;
 }
 
 .sub-container:hover {
@@ -71,7 +87,7 @@ img {display:flex;
 
 .sub-container::first-letter {
     color: teal;
-    font-family:cursive;
+    font-family: cursive;
 }
 
 h1[data-secret]:hover::after {
@@ -86,5 +102,14 @@ h1[data-secret]:hover::after {
     .rightCol,
     .col3 {
         width: 100%;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .sub-container {
+        width: calc(90% - 40px);
+    }
+    .sub-element {
+        width: 90%;
     }
 }

@@ -1,7 +1,27 @@
 # dodge-this-challenger-ii
 
-##This is my ideas for bootcamp:
+## Description
+* 
 
+## screenshot
+![screenshot](./images/charictature.jpg)
+
+## GitHub Repo URL
+* 
+
+## GitHub Pages Link
+* 
+
+
+
+
+
+
+
+
+
+
+## This is my ideas for bootcamp:
 the challenge of all challenges for week 2.
 
 my 2nd repo for week two, first one is called ./exorcise-this-demon
@@ -36,3 +56,4 @@ hold this code, i may be back
                 <a href="url" btay786@gmail.com>btay786@gmail.com</a>
             </div>
         </section>
+
