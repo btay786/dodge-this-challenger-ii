@@ -62,6 +62,9 @@ img {
 
 }
 
+.container img {justify-content: center;
+}
+
 .sub-element {
     display: flex;
     gap: 20px;
