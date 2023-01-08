@@ -1,59 +1,33 @@
 # dodge-this-challenger-ii
 
-## Description
-* 
+## User Story
+* AS AN employer
+I WANT to view a potential employee's deployed portfolio of work samples
+SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
+
+## Outcome
+GIVEN I need to sample a potential employee's previous work
+WHEN I load their portfolio
+THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
+WHEN I click one of the links in the navigation
+THEN the UI scrolls to the corresponding section
+WHEN I click on the link to the section about their work
+THEN the UI scrolls to a section with titled images of the developer's applications
+WHEN I am presented with the developer's first application
+THEN that application's image should be larger in size than the others
+WHEN I click on the images of the applications
+THEN I am taken to that deployed application
+WHEN I resize the page or view the site on various screens and devices
+THEN I am presented with a responsive layout that adapts to my viewport
 
 ## screenshot
-![screenshot](./images/charictature.jpg)
+![screenshot](./images/screenshotoflivepage.png)
 
 ## GitHub Repo URL
-* 
+* https://github.com/btay786/dodge-this-challenger-ii.git
 
 ## GitHub Pages Link
-* 
+* https://btay786.github.io/dodge-this-challenger-ii/
 
 
-
-
-
-
-
-
-
-
-## This is my ideas for bootcamp:
-the challenge of all challenges for week 2.
-
-my 2nd repo for week two, first one is called ./exorcise-this-demon
-i like my humor, i'm a nerd
-
-potential css Code: for putting a nice background image. oh fine lets do it:
-
-.hero {
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
-}
-
-hold this code, i may be back
-<section class="sub-container">
-            <div class="divide-this">
-                <h2>About Me:</h2>
-            </div>
-            <div class="A-division-1">
-                <p>I am me and I will put more here, eventually.</p>
-            </div>
-            <div class="A-division-2"></div>
-            <div class="divided-it-is">
-                <h2>Portfolio</h2>
-            </div>
-           
-            </div>
-            <div class="A-division-3">
-                <a href="url" btay786@gmail.com>btay786@gmail.com</a>
-            </div>
-        </section>
-
+Its a work in progress, but at least i'll get it in.
